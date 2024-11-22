@@ -3,7 +3,7 @@
 :root {
   --bg-color: #FF8A8A;
   --primary-color: #F4DEB3;
-  --secundary-color: #CCE0AC;
+  --secundary-color: #3563c7;
   --font: Gluten;
 }
 body {
@@ -58,3 +58,7 @@ body {
     height: 3rem;
     margin-top: 2rem;
   }
+  span{
+    font-weight: bold;
+    color: var(--secundary-color);
+}
